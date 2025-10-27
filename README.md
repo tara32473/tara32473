@@ -13,18 +13,20 @@
 
 ## 🚀 **About Me**
 
-I'm a **computer programming graduate** with an **Associate's in Computer Programming** and an **Associate's in Paralegal Studies**. I'm passionate about building practical applications with modern development practices. I specialize in **full-stack development**, **automation**, and creating **real-world solutions** that solve actual problems.
+I'm a **computer programming graduate** with an **Associate's in Computer Programming** and an **Associate's in Paralegal Studies**, plus **proven remote work experience**. I'm passionate about building practical applications with modern development practices. I specialize in **full-stack development**, **automation**, and creating **real-world solutions** that solve actual problems.
 
 ```typescript
 const taraMaynard = {
     role: "Computer Programming Graduate",
     education: ["Associate's in Computer Programming", "Associate's in Paralegal Studies"],
+    experience: "Remote Work Professional",
     languages: ["Python", "JavaScript", "TypeScript", "HTML/CSS"],
     frameworks: ["Node.js", "FastAPI", "React"],
     tools: ["Docker", "GitHub Actions", "pytest", "Git"],
     focus: ["Clean Code", "Test-Driven Development", "Practical Applications"],
+    workStyle: ["Remote-First", "Self-Directed", "Collaborative"],
     currentProject: "Personal Finance Management System",
-    seeking: "Programming and Development Opportunities"
+    seeking: "Remote Programming and Development Opportunities"
 };
 ```
 
@@ -48,11 +50,11 @@ My dual education in **Computer Programming** and **Paralegal Studies** creates 
 ![Process Documentation](https://img.shields.io/badge/Process_Documentation-8B5CF6?style=for-the-badge&logo=file-text&logoColor=white)
 ![Risk Assessment](https://img.shields.io/badge/Risk_Assessment-10B981?style=for-the-badge&logo=alert-triangle&logoColor=white)
 
-### **🏠 Remote Work Mastery**
-![Self-Direction](https://img.shields.io/badge/Self_Direction-F59E0B?style=for-the-badge&logo=target&logoColor=white)
-![Virtual Collaboration](https://img.shields.io/badge/Virtual_Collaboration-EF4444?style=for-the-badge&logo=users&logoColor=white)
-![Deadline Precision](https://img.shields.io/badge/Deadline_Precision-06B6D4?style=for-the-badge&logo=clock&logoColor=white)
-![Independent Problem Solving](https://img.shields.io/badge/Independent_Problem_Solving-3B82F6?style=for-the-badge&logo=lightbulb&logoColor=white)
+### **🏠 Proven Remote Work Experience**
+![Professional Remote Experience](https://img.shields.io/badge/Professional_Remote_Experience-F59E0B?style=for-the-badge&logo=briefcase&logoColor=white)
+![Virtual Team Leadership](https://img.shields.io/badge/Virtual_Team_Leadership-EF4444?style=for-the-badge&logo=users&logoColor=white)
+![Remote Communication](https://img.shields.io/badge/Remote_Communication-06B6D4?style=for-the-badge&logo=message-circle&logoColor=white)
+![Distributed Workflow](https://img.shields.io/badge/Distributed_Workflow-3B82F6?style=for-the-badge&logo=workflow&logoColor=white)
 
 </div>
 
@@ -192,14 +194,48 @@ My dual education in **Computer Programming** and **Paralegal Studies** creates 
 
 ---
 
+## 🏠 **Remote Work Experience**
+
+I have **proven professional remote work experience** that directly translates to remote development roles:
+
+<div align="center">
+
+### **💼 Professional Remote Work Skills**
+![Async Communication](https://img.shields.io/badge/Async_Communication-00D4AA?style=for-the-badge&logo=slack&logoColor=white)
+![Time Zone Management](https://img.shields.io/badge/Time_Zone_Management-FF6B6B?style=for-the-badge&logo=world&logoColor=white)
+![Remote Collaboration Tools](https://img.shields.io/badge/Remote_Collaboration_Tools-4ECDC4?style=for-the-badge&logo=zoom&logoColor=white)
+![Self-Management](https://img.shields.io/badge/Self_Management-45B7D1?style=for-the-badge&logo=calendar&logoColor=white)
+
+</div>
+
+**🎯 Remote Work Competencies:**
+- **🕐 Time Management**: Successfully managed multiple projects across different time zones
+- **💬 Communication**: Mastered asynchronous communication and virtual collaboration
+- **🎯 Self-Direction**: Proven ability to maintain productivity without direct supervision
+- **🛠️ Remote Tools**: Experience with video conferencing, project management, and collaboration platforms
+- **📊 Results-Oriented**: Delivered consistent results while working independently
+- **🤝 Virtual Team Integration**: Effectively collaborated with distributed teams and stakeholders
+
+**⚡ Why This Matters for Programming:**
+- **Immediate Productivity**: No learning curve for remote development work
+- **Global Team Ready**: Can work with international development teams
+- **Async Workflow**: Understands code reviews, documentation, and async collaboration
+- **Professional Communication**: Skilled at technical communication in remote environments
+- **Reliable Delivery**: Track record of meeting deadlines without constant oversight
+
+---
+
 ## 💼 **Open to Opportunities**
 
-I'm actively seeking **programming and development roles** where I can contribute:
+I'm actively seeking **remote programming and development roles** where I can contribute:
 
-✅ **Application Development**  
+✅ **Remote Application Development**  
 ✅ **Programming and Automation**  
 ✅ **Test-Driven Development**  
 ✅ **Clean Code & Quality Practices**  
+✅ **Full-Stack Development**  
+✅ **Technical Support & Analysis**  
+✅ **Virtual Team Collaboration**  
 ✅ **Full-Stack Development**  
 ✅ **Technical Support & Analysis**  
 
