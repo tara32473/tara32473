@@ -16,7 +16,7 @@
 I'm a **computer programming graduate** with an **Associate's in Computer Programming** and an **Associate's in Paralegal Studies**. I'm passionate about building practical applications with modern development practices. I specialize in **full-stack development**, **automation**, and creating **real-world solutions** that solve actual problems.
 
 ```typescript
-const taraMainard = {
+const taraMaynard = {
     role: "Computer Programming Graduate",
     education: ["Associate's in Computer Programming", "Associate's in Paralegal Studies"],
     languages: ["Python", "JavaScript", "TypeScript", "HTML/CSS"],
