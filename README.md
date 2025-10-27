@@ -1,4 +1,4 @@
-# 👋 Hi, I'm **tara32473** 
+# 👋 Hi, I'm **Tara Maynard** 
 
 <div align="center">
 
