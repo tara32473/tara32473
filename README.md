@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Profile Banner](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Software+Engineer;Full-Stack+Developer;DevOps+Enthusiast;Problem+Solver)
+![Profile Banner](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Computer+Programming+Graduate;Paralegal+Studies+Graduate;Developer;Problem+Solver)
 
 [![GitHub followers](https://img.shields.io/github/followers/tara32473?style=social)](https://github.com/tara32473)
 [![GitHub stars](https://img.shields.io/github/stars/tara32473?style=social)](https://github.com/tara32473)
@@ -13,17 +13,18 @@
 
 ## 🚀 **About Me**
 
-I'm a **professional software engineer** passionate about building **enterprise-grade applications** with modern development practices. I specialize in **full-stack development**, **DevOps automation**, and creating **real-world solutions** that solve actual problems.
+I'm a **computer programming graduate** with an **Associate's in Computer Programming** and an **Associate's in Paralegal Studies**. I'm passionate about building practical applications with modern development practices. I specialize in **full-stack development**, **automation**, and creating **real-world solutions** that solve actual problems.
 
 ```typescript
-const tara32473 = {
-    role: "Software Engineer",
+const taraMainard = {
+    role: "Computer Programming Graduate",
+    education: ["Associate's in Computer Programming", "Associate's in Paralegal Studies"],
     languages: ["Python", "JavaScript", "TypeScript", "HTML/CSS"],
     frameworks: ["Node.js", "FastAPI", "React"],
     tools: ["Docker", "GitHub Actions", "pytest", "Git"],
-    focus: ["Clean Architecture", "Test-Driven Development", "CI/CD"],
-    currentProject: "Enterprise Budget Management System",
-    seeking: "Software Engineering Opportunities"
+    focus: ["Clean Code", "Test-Driven Development", "Practical Applications"],
+    currentProject: "Personal Finance Management System",
+    seeking: "Programming and Development Opportunities"
 };
 ```
 
@@ -132,13 +133,14 @@ const tara32473 = {
 
 ## 💼 **Open to Opportunities**
 
-I'm actively seeking **software engineering roles** where I can contribute:
+I'm actively seeking **programming and development roles** where I can contribute:
 
-✅ **Enterprise Application Development**  
-✅ **DevOps and Automation Practices**  
+✅ **Application Development**  
+✅ **Programming and Automation**  
 ✅ **Test-Driven Development**  
-✅ **Clean Architecture & Code Quality**  
+✅ **Clean Code & Quality Practices**  
 ✅ **Full-Stack Development**  
+✅ **Technical Support & Analysis**  
 
 ---
 
@@ -156,7 +158,7 @@ I'm actively seeking **software engineering roles** where I can contribute:
 
 <div align="center">
 
-### 🚀 **Ready to build amazing software together!**
+### 🚀 **Ready to build amazing applications together!**
 
 ![Profile Views](https://komarev.com/ghpvc/?username=tara32473&style=for-the-badge&color=667eea)
 
