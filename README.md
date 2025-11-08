@@ -149,7 +149,7 @@ Highlights:
 ---
 
 ## Portfolio Metrics (snapshot)
-###🎯 Project Statistics:
+### 🎯 Project Statistics:
 ├── Repositories featured: 5
 ├── Languages: Python, JavaScript/Node.js, HTML/CSS
 ├── Test Coverage: 80%+ across core projects (target)
