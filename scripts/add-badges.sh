@@ -8,8 +8,10 @@ OWNER="${GITHUB_OWNER:-tara32473}"
 repos=(budget-manager portfolio-website quiz-app task-tracker weather-dashboard)
 BADGE_START='<!-- BADGES:START -->'
 BADGE_END='<!-- BADGES:END -->'
+
 TMP="$(mktemp -t readme.XXXXXX)" || exit 1
-trap 'rm -f "$TMP"' EXIT
+TMP_BADGES="${TMP}.badges"
+trap 'rm -f "$TMP" "$TMP_BADGES"' EXIT
 
 # Build badge block
 {
@@ -23,24 +25,30 @@ trap 'rm -f "$TMP"' EXIT
     echo
   done
   echo "$BADGE_END"
-} > "$TMP.badges"
+} > "$TMP_BADGES"
 
-# Remove existing badge block and create new README (keep the rest)
-awk -v start="$BADGE_START" -v end="$BADGE_END" -v bfile="$TMP.badges" '
+# Remove existing badge block (if any) and write the rest to TMP
+awk -v start="$BADGE_START" -v end="$BADGE_END" -v bfile="$TMP_BADGES" '
   BEGIN {
     while ((getline line < bfile) > 0) badges = badges line "\n"
+    printed = 0
     inblock = 0
   }
   {
-    if ($0 ~ start) { inblock = 1; if (!printed) { print; printf "%s", badges; printed=1 } ; next }
+    if ($0 ~ start) {
+      # replace old block with generated badges once
+      if (!printed) { printf "%s", badges; printed = 1 }
+      inblock = 1
+      next
+    }
     if ($0 ~ end) { inblock = 0; next }
     if (!inblock) print
   }
 ' README.md > "$TMP"
 
-# If no start marker existed, prepend badges
+# If there was no start marker, prepend badges at the top
 if ! grep -qF "$BADGE_START" README.md; then
-  cat "$TMP.badges" README.md > "$TMP"
+  cat "$TMP_BADGES" README.md > "$TMP"
 fi
 
 echo
@@ -51,6 +59,11 @@ echo
 read -r -p "Apply these changes to README.md and commit? [y/N] " resp
 case "${resp,,}" in
   y|yes)
+    if cmp -s README.md "$TMP"; then
+      echo "README would not change — no commit created."
+      exit 0
+    fi
+
     cp README.md README.md.bak."$(date +%Y%m%dT%H%M%S)"
     mv "$TMP" README.md
     git add README.md
