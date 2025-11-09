@@ -125,6 +125,7 @@ Highlights:
 ## Contact & Collaboration
 - For professional inquiries, please use GitHub to reach out: [Tara Maynard (@tara32473)](https://github.com/tara32473)  
 - Portfolio review and interview availability: open to discussions  
+- Availability: Open to freelance/contract work and collaborations; available for interviews and portfolio reviews.
 - If you'd like a resume or references, mention it in a GitHub issue or direct message and I'll follow up
 
 ---
