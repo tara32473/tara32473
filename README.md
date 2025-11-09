@@ -136,7 +136,7 @@ Highlights:
 
 ---
 
-*Last updated: 2025-11-08*  
+*Last updated: 2025-11-09*  
 *This README is maintained and updated alongside the projects it references.*
 
 ### Automation: README badges
