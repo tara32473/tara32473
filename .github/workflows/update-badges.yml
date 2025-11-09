@@ -38,4 +38,4 @@ jobs:
             This PR was created automatically by the update-badges workflow and contains the regenerated canonical badges block.
           base: main
           labels: automated, badges
-          draft: false
+          draft: true
