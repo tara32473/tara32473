@@ -48,7 +48,7 @@ Repository: [budget-manager](https://github.com/tara32473/budget-manager)
 Tech: Python, SQLite, pytest, Docker, GitHub Actions  
 Highlights:
 - CLI application for personal finance and budgeting
-- Automated test suite and >= 80% coverage
+- Automated test suite and 80%+ coverage (target)
 - Dockerized for consistent environments
 - CI pipeline for tests and release artifacts
 
