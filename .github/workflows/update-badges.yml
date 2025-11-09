@@ -3,16 +3,23 @@ name: update-badges-pr
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * 1' # weekly on Mon 06:00 UTC (adjust if you want)
+    - cron: '0 6 * * 1' # weekly
   repository_dispatch:
     types: [regen-badges]
 
 permissions:
-  contents: write  # needed to push/commit and for the create-pull-request action
+  contents: write
+
+concurrency:
+  group: update-badges
+  cancel-in-progress: true
 
 jobs:
   regen-and-pr:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      OWNER: ${{ github.repository_owner }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
