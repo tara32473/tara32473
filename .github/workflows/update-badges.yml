@@ -38,9 +38,9 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: chore(readme): regenerate badges
+          commit-message: 'chore(readme): regenerate badges'
           branch: auto/update-badges-pr-${{ github.run_id }}
-          title: chore(readme): regenerate badges
+          title: 'chore(readme): regenerate badges'
           body: |
             This PR was created automatically by the update-badges workflow and contains the regenerated canonical badges block.
           base: main
