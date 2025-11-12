@@ -1,3 +1,21 @@
+
+TL;DR
+A curated portfolio of small projects demonstrating full‑stack skills, automation, and clean engineering. Quick to skim — most projects include a short "How to run" in their folders.
+
+Quick start — run one demo locally
+- Example (portfolio website):
+  ```bash
+  cd portfolio-website
+  npm install
+  npm start
+  ```
+- For other projects: open the project folder and follow that project's README.
+
+Contact
+- Tara Maynard — see my GitHub profile: https://github.com/tara32473
+
+<!-- TL;DR block end -->
+
 # Tara Maynard - Software Engineer Portfolio
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE)
