@@ -146,3 +146,4 @@ Highlights:
 The badges in this README are maintained automatically by a GitHub Actions workflow (`.github/workflows/update-badges.yml`). The workflow regenerates a canonical badges block for the repos listed in the workflow and updates the README when needed.
 
 If you'd prefer to opt out or change the tracked repositories / badge paths, edit `.github/workflows/update-badges.yml` (or remove the workflow). If the workflow should create a pull request instead of committing directly, see the CI file in `.github/workflows/` and adjust the behavior there.
+
