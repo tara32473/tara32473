@@ -6,10 +6,26 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Issues](https://img.shields.io/github/issues/tara32473/python-calculator)
 ![Stars](https://img.shields.io/github/stars/tara32473/python-calculator?style=social)
+[![Codecov](https://img.shields.io/badge/Codecov-Enabled-blue)](https://codecov.io/gh/tara32473/portfolio-website)
 
 A clean and beginner-friendly **Python Calculator** that performs basic arithmetic operations using a simple command-line interface.  
 This project is perfect for learning Python fundamentals, user input handling, functions, classes, and basic error management.
 
+---
+
+## 🚀 Features
+
+- ➕ Addition  
+- ➖ Subtraction  
+- ✖️ Multiplication  
+- ➗ Division (with divide-by-zero protection)  
+- 🔢 Safe number input validation  
+- 🔁 Looping menu until the user chooses to exit  
+- 🧱 Organized using a modular `Calculator` class  
+
+---
+
+## 📂 Project Structure
 ---
 
 ## 🚀 Features
