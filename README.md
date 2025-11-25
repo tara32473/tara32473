@@ -26,7 +26,6 @@ This project is perfect for learning Python fundamentals, user input handling, f
 ---
 
 ## 📂 Project Structure
----
 
 ## 🚀 Features
 
