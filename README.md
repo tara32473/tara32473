@@ -1,4 +1,4 @@
-## 🧮 Python Calculator
+# 🧮 Python Calculator
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Repo Size](https://img.shields.io/github/repo-size/tara32473/python-calculator)
